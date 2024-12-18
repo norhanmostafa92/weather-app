@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather app | Home</title>
+    <link rel="shortcut icon" href="Imgs/logo-light.png" type="image/png" alt="logo" />
+    <!-- Bootstrap File-->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- CSS File -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-black">
+    <nav class="navbar navbar-expand-lg p-2 bg-black text-white shadow d-flex justify-content-center align-items-center">
+      <div class="container mb-5">
+        <a class="navbar-brand d-flex" href="index.html">
+          <img src="Imgs/logo-dark.png" width="200" alt="logo" />
+          <div class="nav-content"></div>
+        </a>
+        <button toggle="collapse" class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center fs-5 text-white">
+            <li class="nav-item me-5">
+              <a class="nav-link active text-white" aria-current="page" href="index.html"><i class="fa-solid fa-house me-2"></i>Home</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white" href="#"><i class="fa-solid fa-newspaper me-2"></i>News</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white" href="#"><i class="fa-solid fa-camera me-2"></i>Live Cameras</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white" href="#"><i class="fa-solid fa-image me-2"></i>Photo</a>
+            </li>
+            <li class="nav-item me-5">
+              <a class="nav-link text-white" href="#"><i class="fa-solid fa-envelope me-2"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <header>
+        <div class="container ">
+          <div class="row m-0 justify-content-center">
+            <div class="col-10 search-bar position-relative pt-5">
+              <input
+                type="text"
+                class="form-control rounded-pill pt-3 pb-3 ps-4 bg-black"
+                id="search-bar"
+                placeholder="Find Your Location..."
+              />
+              <a
+                href="#"
+                class="btn-2 rounded-pill">search</a>
+            </div>
+          </div>
+          <div class="row justify-content-center" id="weatherDisp"></div>
+        </div>
+      </header>
+    </main>
+    <footer class="bg-dark ">
+      <div class="container footer">
+        <div class="row">
+          <div class="col-lg-9">
+            <div class="col-10 sub-bar position-relative">
+              <input
+                type="text"
+                class="form-control rounded-pill pt-3 pb-3 ps-4"
+                id="sub-bar"
+                placeholder="Enter Your E-mail..."
+              />
+              <a
+                href="#"
+                class="btn-2 btn-info bg-opacity-50 rounded-pill"
+                >Subscribe</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-3 d-flex justify-content-center  ">
+            <a href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-white"
+              title="Facebook"
+            >
+              <i class="fa-brands fa-facebook-f fa-fw me-2"></i>
+            </a>
+            <a
+              href="https://www.behance.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-white"
+              title="Behance"
+            >
+              <i class="fa-brands fa-behance fa-fw me-2"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-white"
+              title="LinkedIn"
+            >
+              <i class="fa-brands fa-linkedin fa-fw me-2"></i>
+            </a>
+            <a
+              href="https://www.google.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-decoration-none text-white"
+              title="Google Plus"
+            >
+              <i class="fa-brands fa-google-plus-g fa-fw me-2"></i>
+            </a>
+          </div>
+          <footer class="footer">
+            <p class="text-white text-center">
+              Copyright 2024 <span class="fw-bold span"> Norhan Mostafa </span>  All Rights Reserved.
+            </p>
+          </footer>
+        </div>
+      </div>
+    </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
